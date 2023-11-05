@@ -6,13 +6,18 @@ using UnityEngine.SceneManagement;
 
 public class Scene_Selection : MonoBehaviour
 {
+    int openMenu = Animator.StringToHash("SceneSelelctionOpen");
+    int closeMenu = Animator.StringToHash("SceneSelectionClose");
+    public Animator animator;
     int gameToPlay;
     
     public TMPro.TMP_Dropdown difficulty;
     int _difficulty;
     public void EnterSceneSelection()
     {
+        
         GameManager.Instance.ChangeCanvasses(4, true);
+        animator.Play(openMenu);
         Debug.Log("Scene_Selection isPlaying");
     }
     public void ExitSceneSelection()
@@ -63,10 +68,9 @@ public class Scene_Selection : MonoBehaviour
     public void NextScene()
     {
         int _nextScene=SceneManager.GetActiveScene().buildIndex+1;
-        
+
         SceneManager.LoadScene(_nextScene);
         GameManager.Instance._switch.SwitcCurrentState(SwitchStates.STATES.SELECTEDGAME);
-       
     }
     public void LoadPreviousScene()
     {
@@ -75,7 +79,7 @@ public class Scene_Selection : MonoBehaviour
       
         SceneManager.LoadScene(_previousScene);
         GameManager.Instance._switch.SwitcCurrentState(SwitchStates.STATES.SELECTEDGAME);
-
     }
+    
 
 }

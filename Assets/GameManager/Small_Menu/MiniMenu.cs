@@ -6,6 +6,7 @@ public class MiniMunu : MonoBehaviour
 { 
     public Animator miniMenuAnimatorContrroller;
     private bool isClicked=false;
+   
     int openMenu=Animator.StringToHash("menuOpen");
     int closeMenu = Animator.StringToHash("menuClose");
 

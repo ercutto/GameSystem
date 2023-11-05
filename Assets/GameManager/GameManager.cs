@@ -28,8 +28,7 @@ public class GameManager : MonoBehaviour
     public GameObject _dummyPlayer;
 
     public bool accepted=false;
-
-
+    public int score;
     public Canvas[] _canvases;
     private void Awake()
     {

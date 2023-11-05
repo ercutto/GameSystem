@@ -1,12 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class PlaySelectedGame : MonoBehaviour
-{  
+{
+    
    public void EnterSelectedGame()
     {
-        
+       GameManager.Instance.score+=1;
+       
+        Debug.Log("score"+ GameManager.Instance.score);
         GameManager.Instance.ChangeCanvasses(5, true);
         Debug.Log("Game is Started");
         Instantiate(GameManager.Instance._dummyPlayer, new Vector3(0, 0, 0), Quaternion.identity);
