@@ -119,6 +119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InputHolders (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3971310810612852169, guid: 1761e6773c75d984383ffb25a1f60d42, type: 3}
+      propertyPath: m_fontSize
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 5570056516331248744, guid: 1761e6773c75d984383ffb25a1f60d42, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -309,6 +313,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5936542105235076829, guid: 655bde2633055584a82743fe3b5f8760, type: 3}
+      propertyPath: m_fontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8048704592313340311, guid: 655bde2633055584a82743fe3b5f8760, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8048704592313340311, guid: 655bde2633055584a82743fe3b5f8760, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -885022079, guid: 8140b7d93c9828a42b29be6cd46fa4f7, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -330,6 +346,10 @@ PrefabInstance:
     - target: {fileID: 761295885039079069, guid: 1761e6773c75d984383ffb25a1f60d42, type: 3}
       propertyPath: m_Name
       value: InputHolders
+      objectReference: {fileID: 0}
+    - target: {fileID: 3971310810612852169, guid: 1761e6773c75d984383ffb25a1f60d42, type: 3}
+      propertyPath: m_fontSize
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 5570056516331248744, guid: 1761e6773c75d984383ffb25a1f60d42, type: 3}
       propertyPath: m_Pivot.x
@@ -436,6 +456,10 @@ PrefabInstance:
     - target: {fileID: 761295885039079069, guid: 1761e6773c75d984383ffb25a1f60d42, type: 3}
       propertyPath: m_Name
       value: InputHolders (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3971310810612852169, guid: 1761e6773c75d984383ffb25a1f60d42, type: 3}
+      propertyPath: m_fontSize
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 5570056516331248744, guid: 1761e6773c75d984383ffb25a1f60d42, type: 3}
       propertyPath: m_Pivot.x

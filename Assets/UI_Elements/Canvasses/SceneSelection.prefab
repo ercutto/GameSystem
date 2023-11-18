@@ -37,7 +37,7 @@ RectTransform:
   - {fileID: 935572414506863218}
   - {fileID: 8151508598187495649}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -128,14 +128,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.82566833, b: 1, a: 0.18431373}
+  m_Color: {r: 0, g: 0.82566833, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -885022079, guid: 8140b7d93c9828a42b29be6cd46fa4f7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -153,6 +153,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8044691547450571935}
     m_Modifications:
+    - target: {fileID: 640830302458830977, guid: 4993e7fb310969f45a6c289f9583fb70, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -24.04699
+      objectReference: {fileID: 0}
     - target: {fileID: 1196157902598790560, guid: 4993e7fb310969f45a6c289f9583fb70, type: 3}
       propertyPath: m_text
       value: Easy
@@ -161,9 +165,25 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 43.4
       objectReference: {fileID: 0}
+    - target: {fileID: 5042542748425921599, guid: 4993e7fb310969f45a6c289f9583fb70, type: 3}
+      propertyPath: m_Size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042542748425921599, guid: 4993e7fb310969f45a6c289f9583fb70, type: 3}
+      propertyPath: m_Value
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5408522824996957998, guid: 4993e7fb310969f45a6c289f9583fb70, type: 3}
       propertyPath: m_Name
       value: DropDownHolder
+      objectReference: {fileID: 0}
+    - target: {fileID: 5757338592125932345, guid: 4993e7fb310969f45a6c289f9583fb70, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5757338592125932345, guid: 4993e7fb310969f45a6c289f9583fb70, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8731944863256596121, guid: 4993e7fb310969f45a6c289f9583fb70, type: 3}
       propertyPath: m_Options.m_Options.Array.data[0].m_Text
@@ -611,11 +631,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6838389876651878552, guid: d6f5e80c1d8dacf449b4b73f8c237ffb, type: 3}
       propertyPath: m_Size
-      value: 0.99999994
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6838389876651878552, guid: d6f5e80c1d8dacf449b4b73f8c237ffb, type: 3}
       propertyPath: m_Value
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8139523648149628764, guid: d6f5e80c1d8dacf449b4b73f8c237ffb, type: 3}
       propertyPath: m_AnchorMax.x
@@ -623,6 +643,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8139523648149628764, guid: d6f5e80c1d8dacf449b4b73f8c237ffb, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8139523648149628764, guid: d6f5e80c1d8dacf449b4b73f8c237ffb, type: 3}
+      propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

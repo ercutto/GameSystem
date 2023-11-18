@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: wayfarer_boy_Shiny_green_red_voting_arrows_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 202
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9932863d40ec33143bb4c9252f091f03
+      internalID: -1381143404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wayfarer_boy_Shiny_green_red_voting_arrows_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 202
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84dfc71aaa22e7a4296de35b50960854
+      internalID: -799440659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wayfarer_boy_Shiny_green_red_voting_arrows_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 202
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2aa20f3d392104a862947c0e67d16d
+      internalID: 955433286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wayfarer_boy_Shiny_green_red_voting_arrows_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 202
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450df103565b9ba43b8575212dd75f16
+      internalID: -947810604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +216,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wayfarer_boy_Shiny_green_red_voting_arrows_0: -1381143404
+      wayfarer_boy_Shiny_green_red_voting_arrows_1: -799440659
+      wayfarer_boy_Shiny_green_red_voting_arrows_2: 955433286
+      wayfarer_boy_Shiny_green_red_voting_arrows_3: -947810604
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,721 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 242
+        width: 207
+        height: 1388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a744cbc069a5784fbd8cbbe118bcfb9
+      internalID: 1585428327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_1
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1435
+        width: 546
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6166b6a7764554985cc9cc102f94d2
+      internalID: 224419683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_2
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1436
+        width: 185
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5566def6728b6a3458a528bc25a40023
+      internalID: -565852307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_3
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1436
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851e3fa7e011ee84496772c7250f8dfb
+      internalID: 385794096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_4
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1439
+        width: 710
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7670f3b165660c4096ffd1c3f161b69
+      internalID: -1608933956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_5
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1241
+        width: 548
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0180744eaccc9247abedc5642aea332
+      internalID: -436233870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_6
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1243
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a263e43062df7459e8df5a0ad7036d
+      internalID: 1618757071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_7
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1242
+        width: 185
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211686b38ab49b649928d8b5229c4163
+      internalID: -1701087163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_8
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1241
+        width: 710
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619be176e5881e74e867f601a5cd1d68
+      internalID: -1597533396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_9
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1038
+        width: 546
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4335755e6819c8d469731d4edb7c798f
+      internalID: -885022079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_10
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1044
+        width: 185
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9443c5ec7a7704bb74441bcb4d9c63
+      internalID: -936464595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_11
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1045
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5890dbb4bb43d49429ca9f34b714b1e3
+      internalID: 1023978203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_12
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1048
+        width: 710
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e11540c8e9a0204dbbc9a01dcd64323
+      internalID: -1146324452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_13
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 845
+        width: 547
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29aaed8e694c89e41ac3f1b79ce59ee1
+      internalID: -1957427776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_14
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 846
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6023d48a32285c14294df601e8ae2322
+      internalID: -200445743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_15
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 847
+        width: 185
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac24cf505030a847ba13191283a72ec
+      internalID: -2026442762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_16
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 850
+        width: 710
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d14ff00fec38284aa5b3852267eb144
+      internalID: -1502652433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_17
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 648
+        width: 547
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c0867e74087114d8ed27bc3a523b9c
+      internalID: 337745333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_18
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 650
+        width: 185
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2c32387ea8e884aa6f20ce883984f5
+      internalID: 808671117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_19
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 649
+        width: 185
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0283d197de69657458debba80ffcab78
+      internalID: -268998900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_20
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 652
+        width: 710
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6687b556160c21f4ebc2c2061381423f
+      internalID: -1023362392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_21
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 448
+        width: 547
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672a408023b9f064f920a94c7b209ae0
+      internalID: -212811312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_22
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 449
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971de65bfb023b64888c94740e3d7b3f
+      internalID: 1540254194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_23
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 452
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9c6fb0ce51b1d4ebddfd87f5212fe3
+      internalID: 1532104617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_24
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 450
+        width: 710
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4c182408138924bbf510410a07f114
+      internalID: -1552125045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_25
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 249
+        width: 547
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c3a63dde68b6445ac76d37eb843142
+      internalID: 1070357953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_26
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 251
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19e1f791e984474daffa126ed0d4ac3
+      internalID: -1739065556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_27
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 250
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e463ec73fb369540941caf17348501a
+      internalID: -831203306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_28
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 253
+        width: 710
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5774faafe59cc48a61f21872046a29
+      internalID: 329281443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_29
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 39
+        width: 206
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f9c4573cda8404886e5222559b5f8e
+      internalID: 1110535117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_30
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 48
+        width: 547
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f736d6b5e8b5504d9873c7a302a9cb8
+      internalID: -1614096545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_31
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 50
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7447629e8fca2742bf4f0e74d7085ff
+      internalID: 1371056870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_32
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 52
+        width: 185
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a257c8efb9fb44db3e387a0e738d56
+      internalID: -691123670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chrisdesign_Buttonset_glossy_33
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 51
+        width: 710
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e10fba096fb5649bb6f39d8388e9d6
+      internalID: 1815412932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +846,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chrisdesign_Buttonset_glossy_0: 1585428327
+      Chrisdesign_Buttonset_glossy_1: 224419683
+      Chrisdesign_Buttonset_glossy_10: -936464595
+      Chrisdesign_Buttonset_glossy_11: 1023978203
+      Chrisdesign_Buttonset_glossy_12: -1146324452
+      Chrisdesign_Buttonset_glossy_13: -1957427776
+      Chrisdesign_Buttonset_glossy_14: -200445743
+      Chrisdesign_Buttonset_glossy_15: -2026442762
+      Chrisdesign_Buttonset_glossy_16: -1502652433
+      Chrisdesign_Buttonset_glossy_17: 337745333
+      Chrisdesign_Buttonset_glossy_18: 808671117
+      Chrisdesign_Buttonset_glossy_19: -268998900
+      Chrisdesign_Buttonset_glossy_2: -565852307
+      Chrisdesign_Buttonset_glossy_20: -1023362392
+      Chrisdesign_Buttonset_glossy_21: -212811312
+      Chrisdesign_Buttonset_glossy_22: 1540254194
+      Chrisdesign_Buttonset_glossy_23: 1532104617
+      Chrisdesign_Buttonset_glossy_24: -1552125045
+      Chrisdesign_Buttonset_glossy_25: 1070357953
+      Chrisdesign_Buttonset_glossy_26: -1739065556
+      Chrisdesign_Buttonset_glossy_27: -831203306
+      Chrisdesign_Buttonset_glossy_28: 329281443
+      Chrisdesign_Buttonset_glossy_29: 1110535117
+      Chrisdesign_Buttonset_glossy_3: 385794096
+      Chrisdesign_Buttonset_glossy_30: -1614096545
+      Chrisdesign_Buttonset_glossy_31: 1371056870
+      Chrisdesign_Buttonset_glossy_32: -691123670
+      Chrisdesign_Buttonset_glossy_33: 1815412932
+      Chrisdesign_Buttonset_glossy_4: -1608933956
+      Chrisdesign_Buttonset_glossy_5: -436233870
+      Chrisdesign_Buttonset_glossy_6: 1618757071
+      Chrisdesign_Buttonset_glossy_7: -1701087163
+      Chrisdesign_Buttonset_glossy_8: -1597533396
+      Chrisdesign_Buttonset_glossy_9: -885022079
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

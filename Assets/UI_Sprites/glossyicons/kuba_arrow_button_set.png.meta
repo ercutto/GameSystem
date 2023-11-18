@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: kuba_arrow_button_set_0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1563
+        width: 358
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc66e216fd439b0418b9700133f0cb8b
+      internalID: 1421910138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kuba_arrow_button_set_1
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1563
+        width: 359
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd0684ae81e322488bc76f22cbd9e8c
+      internalID: 2131158463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kuba_arrow_button_set_2
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1563
+        width: 359
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6cf83a6a0df714a9d350998f2bdd0f
+      internalID: -1132879691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kuba_arrow_button_set_3
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1563
+        width: 358
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2e2cf8931040d45b06519fd638b48f
+      internalID: 753209749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kuba_arrow_button_set_4
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1078
+        width: 358
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b196ede2017fc48b2f6b5ba1a44158
+      internalID: -1471490010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kuba_arrow_button_set_5
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1078
+        width: 359
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce8c6fa3f1c56d439f05ac3664af34c
+      internalID: 1593203240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kuba_arrow_button_set_6
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1078
+        width: 359
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ea2ca3cda370f47878ea4d7eed50b5
+      internalID: 569750807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kuba_arrow_button_set_7
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1078
+        width: 358
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc486f4320650243827757b7feed9c8
+      internalID: -2120551918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kuba_arrow_button_set_8
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 613
+        width: 358
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e844dc93817ad419dd702482ad4653
+      internalID: -855752660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kuba_arrow_button_set_9
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 613
+        width: 359
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff6d1c8906af71469bdb3fbe565d6b6
+      internalID: -2076696068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kuba_arrow_button_set_10
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 613
+        width: 359
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b15f1116e45de4e8486f9f078a2291
+      internalID: -1596477190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kuba_arrow_button_set_11
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 613
+        width: 358
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db6b44fac8b8ae40806211a0d2737bb
+      internalID: 1955831811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kuba_arrow_button_set_12
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 141
+        width: 358
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d58940a14082e045b4d8da5a948f378
+      internalID: 1476829694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kuba_arrow_button_set_13
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 141
+        width: 359
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4544c8c838d1d86479eef6f8df777046
+      internalID: -1410462623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kuba_arrow_button_set_14
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 141
+        width: 359
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ab8fa93cf026748a42b750184141fd
+      internalID: 1403106703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kuba_arrow_button_set_15
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 141
+        width: 358
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea6a3db20d7ee644b13610eb4767641
+      internalID: 1758962490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +468,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kuba_arrow_button_set_0: 1421910138
+      kuba_arrow_button_set_1: 2131158463
+      kuba_arrow_button_set_10: -1596477190
+      kuba_arrow_button_set_11: 1955831811
+      kuba_arrow_button_set_12: 1476829694
+      kuba_arrow_button_set_13: -1410462623
+      kuba_arrow_button_set_14: 1403106703
+      kuba_arrow_button_set_15: 1758962490
+      kuba_arrow_button_set_2: -1132879691
+      kuba_arrow_button_set_3: 753209749
+      kuba_arrow_button_set_4: -1471490010
+      kuba_arrow_button_set_5: 1593203240
+      kuba_arrow_button_set_6: 569750807
+      kuba_arrow_button_set_7: -2120551918
+      kuba_arrow_button_set_8: -855752660
+      kuba_arrow_button_set_9: -2076696068
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

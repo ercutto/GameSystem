@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 361be8c923226294783cc9da93d2e38e, type: 3}
+  m_Sprite: {fileID: 1421910138, guid: b6d8786d559450844a4f965e6a7458fa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -230,8 +230,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -885022079, guid: 8140b7d93c9828a42b29be6cd46fa4f7, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -522,6 +522,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7762537733732692248, guid: d2e1c9284c6afaa42b0417960b5ab61f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.009979248
+      objectReference: {fileID: 0}
     - target: {fileID: 8549266775518123607, guid: d2e1c9284c6afaa42b0417960b5ab61f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -644,6 +648,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7762537733732692248, guid: d2e1c9284c6afaa42b0417960b5ab61f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.009979248
+      objectReference: {fileID: 0}
     - target: {fileID: 8549266775518123607, guid: d2e1c9284c6afaa42b0417960b5ab61f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -750,6 +758,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5136655352287941285}
     m_Modifications:
+    - target: {fileID: 770917517652682523, guid: ccdc9b96a9f0f514e8ca5de47b945122, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0fafbcf07e3bb7e4bab284ec43332059, type: 3}
     - target: {fileID: 2627901489654192063, guid: ccdc9b96a9f0f514e8ca5de47b945122, type: 3}
       propertyPath: m_Name
       value: miniMenuButton (1)
