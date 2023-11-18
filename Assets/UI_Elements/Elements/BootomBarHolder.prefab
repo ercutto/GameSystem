@@ -69,10 +69,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 14652600154044605}
-  - {fileID: 5911977767614698830}
+  - {fileID: 3511995408368528892}
   - {fileID: 97118434318195617}
   - {fileID: 7721572188067992433}
-  - {fileID: 5137555621028275585}
+  - {fileID: 2736727174764961073}
   m_Father: {fileID: 9095372063537933866}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -102,15 +102,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 15d5b23111c9a9d4eabf768ff0a0a121, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -352,7 +352,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 636542f6891c3134bae45225cd320459, type: 3}
---- !u!224 &5137555621028275585 stripped
+--- !u!224 &2736727174764961073 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7113027982900705457, guid: 636542f6891c3134bae45225cd320459, type: 3}
   m_PrefabInstance: {fileID: 5137555621028275584}
@@ -458,7 +458,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 636542f6891c3134bae45225cd320459, type: 3}
---- !u!224 &5911977767614698830 stripped
+--- !u!224 &3511995408368528892 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7113027982900705457, guid: 636542f6891c3134bae45225cd320459, type: 3}
   m_PrefabInstance: {fileID: 5911977767614698829}

@@ -30,7 +30,11 @@ public class MiniMunu : MonoBehaviour
     {
         if (isClicked)
         {
-            miniMenuAnimatorContrroller.Play(closeMenu);
+            if (miniMenuAnimatorContrroller.isActiveAndEnabled == true)
+            {
+                miniMenuAnimatorContrroller.Play(closeMenu);
+            }
+            
             isClicked = false;
         }
     }

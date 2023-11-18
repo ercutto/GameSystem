@@ -27,7 +27,16 @@ public class GameManager : MonoBehaviour
     public PlaySelectedGame _selectedGame;
     public GameObject _dummyPlayer;
 
+    //inGameStates
+    public CurrentGameIsPlaying _currentGameIsPlaying;
+    public CurrentGamePaused _currentGamePaused;
+    public CurrentMissionFailed _currentMissionFailed;
+    public CurrentMissionIsComplated _currentMissionIsComplated;
+    public ScoreBoardController _scoreBoardController;
+    public NewLevelUnlocked _newLevelUnlocked;
+
     public bool accepted=false;
+   
     public int score;
     public Canvas[] _canvases;
     private void Awake()
@@ -41,6 +50,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         _switch.SwitcCurrentState(SwitchStates.STATES.PRIVACY_POLICY);
 
     }
@@ -48,6 +58,36 @@ public class GameManager : MonoBehaviour
     {
         _canvases[canvas].gameObject.SetActive(TrueOrFlase);
         
+    }
+
+    public void Update()
+    {
+       
+       
+    }
+    public void GamePaused()
+    {
+        _currentGamePaused.Pause();
+    }
+    public void GameIsPlaying()
+    {
+        _currentGameIsPlaying.GameDynamics();
+    }
+    public void MissionComplated()
+    {
+        _currentMissionIsComplated.MissionComplated();
+    }
+    public void MissionFailed()
+    {
+        _currentMissionFailed.MissionFailed();
+    }
+    public void NewLevelUnlocked()
+    {
+        _newLevelUnlocked.UnLockLevel();
+    }
+    public void ScoreBoardUpdate()
+    {
+        _scoreBoardController.UpdateBoard();
     }
     
     

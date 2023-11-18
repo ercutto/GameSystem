@@ -5,12 +5,10 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class PlaySelectedGame : MonoBehaviour
 {
-    
+   
    public void EnterSelectedGame()
     {
-       GameManager.Instance.score+=1;
-       
-        Debug.Log("score"+ GameManager.Instance.score);
+        GameManager.Instance.score=0;
         GameManager.Instance.ChangeCanvasses(5, true);
         Debug.Log("Game is Started");
         Instantiate(GameManager.Instance._dummyPlayer, new Vector3(0, 0, 0), Quaternion.identity);
@@ -26,6 +24,9 @@ public class PlaySelectedGame : MonoBehaviour
     {
         if (GameManager.Instance._scene_Slection.ThereIsNextScene()&&GameManager.Instance._scene_Slection.SameUI())
         {
+            Debug.Log(GameManager.Instance.score);
+
+            GameManager.Instance.score = 0;
             GameManager.Instance._scene_Slection.NextScene();
             //GameManager.Instance.ChangeCanvasses(5, false);
         }
@@ -40,6 +41,9 @@ public class PlaySelectedGame : MonoBehaviour
     {
         if(GameManager.Instance._scene_Slection.ThereIsPreviousScene()&&GameManager.Instance._scene_Slection.SameUI())
         {
+            Debug.Log(GameManager.Instance.score);
+
+            GameManager.Instance.score = 0;
             GameManager.Instance._scene_Slection.LoadPreviousScene();
             //GameManager.Instance.ChangeCanvasses(5, false);
         }

@@ -61,12 +61,14 @@ public class Scene_Selection : MonoBehaviour
     }
     public bool ThereIsPreviousScene()
     {
+       
         int _previousScene = SceneManager.GetActiveScene().buildIndex - 1;
 
         if (_previousScene > SceneManager.GetSceneByBuildIndex(1).buildIndex) { return true; }else { return false; }       
     }
     public void NextScene()
     {
+       
         int _nextScene=SceneManager.GetActiveScene().buildIndex+1;
 
         SceneManager.LoadScene(_nextScene);
@@ -74,6 +76,8 @@ public class Scene_Selection : MonoBehaviour
     }
     public void LoadPreviousScene()
     {
+
+        
         int _previousScene=SceneManager.GetActiveScene().buildIndex-1;
 
       
