@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6576780836365492678}
   m_Layer: 5
   m_Name: PrivacyPolicyObject
-  m_TagString: Untagged
+  m_TagString: Btn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.35
+  m_fontSize: 35.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -556,6 +556,10 @@ PrefabInstance:
     - target: {fileID: 8081727853620858507, guid: 7c7cba60c3bc60a4bba435506f3fd0ec, type: 3}
       propertyPath: m_text
       value: Read More
+      objectReference: {fileID: 0}
+    - target: {fileID: 8081727853620858507, guid: 7c7cba60c3bc60a4bba435506f3fd0ec, type: 3}
+      propertyPath: m_fontSize
+      value: 26.85
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

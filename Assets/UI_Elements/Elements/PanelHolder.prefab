@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 729612074975441756}
   m_Layer: 5
   m_Name: Panel
-  m_TagString: Untagged
+  m_TagString: Btn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 6961046635808847499}
   m_Layer: 5
   m_Name: PanelHolder
-  m_TagString: Untagged
+  m_TagString: Btn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

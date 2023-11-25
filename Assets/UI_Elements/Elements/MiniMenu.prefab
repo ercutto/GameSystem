@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1421910138, guid: b6d8786d559450844a4f965e6a7458fa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 72a996ede41032b4a9f884619d9cf9bd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 4697077982525188976}
   m_Layer: 5
   m_Name: Panel
-  m_TagString: Untagged
+  m_TagString: Btn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -400,6 +400,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5136655352287941285}
     m_Modifications:
+    - target: {fileID: 770917517652682523, guid: ccdc9b96a9f0f514e8ca5de47b945122, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5646ad89f17839a47b2107d7f8650a23, type: 3}
     - target: {fileID: 2627901489654192063, guid: ccdc9b96a9f0f514e8ca5de47b945122, type: 3}
       propertyPath: m_Name
       value: miniMenuButton
@@ -761,10 +765,14 @@ PrefabInstance:
     - target: {fileID: 770917517652682523, guid: ccdc9b96a9f0f514e8ca5de47b945122, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0fafbcf07e3bb7e4bab284ec43332059, type: 3}
+      objectReference: {fileID: 21300000, guid: 5646ad89f17839a47b2107d7f8650a23, type: 3}
     - target: {fileID: 2627901489654192063, guid: ccdc9b96a9f0f514e8ca5de47b945122, type: 3}
       propertyPath: m_Name
       value: miniMenuButton (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7113063647516510505, guid: ccdc9b96a9f0f514e8ca5de47b945122, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8073012440610539489, guid: ccdc9b96a9f0f514e8ca5de47b945122, type: 3}
       propertyPath: m_Pivot.x

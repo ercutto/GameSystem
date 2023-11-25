@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 4304136654991798743}
   m_Layer: 5
   m_Name: miniMenuButton
-  m_TagString: Untagged
+  m_TagString: Btn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
