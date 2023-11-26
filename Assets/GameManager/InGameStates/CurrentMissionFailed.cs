@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class CurrentMissionFailed : MonoBehaviour
 {
-   public void MissionFailed()
+    
+    [SerializeField] private GameObject _gameEndUI;
+    [SerializeField] private GameObject nextLevelButton;
+    public void MissionFailed()
     {
-
+        _gameEndUI.SetActive(true);
+        nextLevelButton.SetActive(false);
     }
 }

@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class CurrentGameIsPlaying : MonoBehaviour
 {
-   public void GameDynamics()
+    [SerializeField]
+    private GameObject _gameEndUI;
+    public void GameDynamics()
     {
-        Debug.Log("GameDynamics");
+        _gameEndUI.SetActive(false);
     }
 }

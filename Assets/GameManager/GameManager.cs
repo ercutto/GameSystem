@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour
     public CurrentMissionIsComplated _currentMissionIsComplated;
     public ScoreBoardController _scoreBoardController;
     public NewLevelUnlocked _newLevelUnlocked;
+    public RestartLevel _restartLevel;
 
     public bool accepted=false;
    
@@ -90,6 +91,11 @@ public class GameManager : MonoBehaviour
         _scoreBoardController.UpdateBoard();
     }
     
+    public void RestartcurrentLevel()
+    {
+        //reset variables
+        _restartLevel.CurrentLevelRestart();
+    }
     
 
 

@@ -11,14 +11,16 @@ public class Scene_Selection : MonoBehaviour
     public Animator animator;
     int gameToPlay;
     
+    
     public TMPro.TMP_Dropdown difficulty;
     int _difficulty;
     public void EnterSceneSelection()
     {
-        
+      
         GameManager.Instance.ChangeCanvasses(4, true);
         animator.Play(openMenu);
         Debug.Log("Scene_Selection isPlaying");
+        
     }
     public void ExitSceneSelection()
     {
@@ -28,7 +30,10 @@ public class Scene_Selection : MonoBehaviour
     }
     public void SelectScene(int sceneToLoad)
     {
-        GameManager.Instance.ChangeCanvasses(4, false);
+        
+            GameManager.Instance.ChangeCanvasses(4, false);
+        
+        
         Debug.Log("Scene_Selection isEnded");
         gameToPlay = sceneToLoad;
         
@@ -83,6 +88,12 @@ public class Scene_Selection : MonoBehaviour
       
         SceneManager.LoadScene(_previousScene);
         GameManager.Instance._switch.SwitcCurrentState(SwitchStates.STATES.SELECTEDGAME);
+    }
+    public void LoadCurrentScene()
+    {
+        int _nextScene = SceneManager.GetActiveScene().buildIndex;
+
+        SceneManager.LoadScene(_nextScene);
     }
     
 
