@@ -15,7 +15,7 @@ public class RestartLevel : MonoBehaviour
     }
     public void ReloadCurrentScene()
     {
-        
+        GameManager.Instance._selectedGame.PlayAnimation();
         GameManager.Instance._switch.SwitcCurrentState(SwitchStates.STATES.SELECTEDGAME);
         
     }

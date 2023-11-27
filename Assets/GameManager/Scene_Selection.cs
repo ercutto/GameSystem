@@ -76,7 +76,7 @@ public class Scene_Selection : MonoBehaviour
     {
        
         int _nextScene=SceneManager.GetActiveScene().buildIndex+1;
-
+       
         SceneManager.LoadScene(_nextScene);
         GameManager.Instance._switch.SwitcCurrentState(SwitchStates.STATES.SELECTEDGAME);
     }
@@ -86,7 +86,7 @@ public class Scene_Selection : MonoBehaviour
         
         int _previousScene=SceneManager.GetActiveScene().buildIndex-1;
 
-      
+        
         SceneManager.LoadScene(_previousScene);
         GameManager.Instance._switch.SwitcCurrentState(SwitchStates.STATES.SELECTEDGAME);
     }

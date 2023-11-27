@@ -5,19 +5,28 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class PlaySelectedGame : MonoBehaviour
 {
-    public GameObject _gameAndUI;
+   public GameObject _gameAndUI;
+   public GameObject _gamePlayUI;
+   public Animator transitionAnimator;
+   private int transition = Animator.StringToHash("Open");
+    private GameObject _player;
+   
+    
    public void EnterSelectedGame()
     {
-        if(_gameAndUI.activeInHierarchy) { _gameAndUI.SetActive(false); }
+        if(_gameAndUI.activeInHierarchy) { _gameAndUI.SetActive(false);  }
 
         GameManager.Instance.score=0;
         GameManager.Instance.ChangeCanvasses(5, true);
         Debug.Log("Game is Started");
-        Instantiate(GameManager.Instance._dummyPlayer, new Vector3(0, 0, 0), Quaternion.identity);
+        _player = GameObject.FindGameObjectWithTag("Player");
+        if(_player == null)
+       { Instantiate(GameManager.Instance._dummyPlayer, new Vector3(0, 0, 0), Quaternion.identity); }
+         
     }
     public void ExitFromSelectedGame()
     {
-        
+        PlayAnimation();
         GameManager.Instance._switch.SwitcCurrentState(SwitchStates.STATES.MAIN_MENU);
         GameManager.Instance.ChangeCanvasses(5, false);
 
@@ -30,7 +39,8 @@ public class PlaySelectedGame : MonoBehaviour
             Debug.Log(GameManager.Instance.score);
 
             GameManager.Instance.score = 0;
-            GameManager.Instance._scene_Slection.NextScene();
+            StartCoroutine(TransitionForNextScene());
+            
             //GameManager.Instance.ChangeCanvasses(5, false);
         }
         else
@@ -50,7 +60,8 @@ public class PlaySelectedGame : MonoBehaviour
             Debug.Log(GameManager.Instance.score);
 
             GameManager.Instance.score = 0;
-            GameManager.Instance._scene_Slection.LoadPreviousScene();
+            StartCoroutine(TransitionForPreviewScene());
+            
             //GameManager.Instance.ChangeCanvasses(5, false);
         }
         else
@@ -60,4 +71,34 @@ public class PlaySelectedGame : MonoBehaviour
         
 
     }
+    #region Animation and Transitions
+    public void PlayAnimation()
+    {
+        transitionAnimator.Play(transition);
+    }
+
+    IEnumerator TransitionForNextScene()
+    {
+        _gamePlayUI.SetActive(false);
+        PlayAnimation();
+        yield return new WaitForSeconds(0.5f);
+        GameManager.Instance._scene_Slection.NextScene();
+        yield return new WaitForSeconds(0.5f);
+        _gamePlayUI.SetActive(true);
+
+    }
+    IEnumerator TransitionForPreviewScene()
+    {
+        _gamePlayUI.SetActive(false);
+        PlayAnimation();
+        yield return new WaitForSeconds(0.5f);
+        GameManager.Instance._scene_Slection.LoadPreviousScene();
+        yield return new WaitForSeconds(0.5f);
+        _gamePlayUI.SetActive(true);
+
+    }
+    #endregion
+
 }
+
+
