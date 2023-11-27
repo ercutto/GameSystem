@@ -5,9 +5,11 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class PlaySelectedGame : MonoBehaviour
 {
-   
+    public GameObject _gameAndUI;
    public void EnterSelectedGame()
     {
+        if(_gameAndUI.activeInHierarchy) { _gameAndUI.SetActive(false); }
+
         GameManager.Instance.score=0;
         GameManager.Instance.ChangeCanvasses(5, true);
         Debug.Log("Game is Started");
@@ -20,6 +22,7 @@ public class PlaySelectedGame : MonoBehaviour
         GameManager.Instance.ChangeCanvasses(5, false);
 
     }
+    //gelecek sahneyi burdan cek!!!!
     public void NextScene()
     {
         if (GameManager.Instance._scene_Slection.ThereIsNextScene()&&GameManager.Instance._scene_Slection.SameUI())
@@ -37,6 +40,9 @@ public class PlaySelectedGame : MonoBehaviour
 
 
     }
+    /// <summary>
+    /// Gecmis Sahneyi buradan cek!!!
+    /// </summary>
     public void BackToPreviousScene()
     {
         if(GameManager.Instance._scene_Slection.ThereIsPreviousScene()&&GameManager.Instance._scene_Slection.SameUI())

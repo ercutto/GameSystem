@@ -9,9 +9,9 @@ public class RestartLevel : MonoBehaviour
     public GameObject _nextGameButton;
     public void CurrentLevelRestart()
     {
-        _gameEndUi.SetActive(false);
+       
         _nextGameButton.SetActive(true);
-        ReloadCurrentScene();
+         ReloadCurrentScene();
     }
     public void ReloadCurrentScene()
     {

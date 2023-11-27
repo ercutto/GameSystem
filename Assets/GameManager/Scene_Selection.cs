@@ -71,6 +71,7 @@ public class Scene_Selection : MonoBehaviour
 
         if (_previousScene > SceneManager.GetSceneByBuildIndex(1).buildIndex) { return true; }else { return false; }       
     }
+    //gelecek sahneyi playSelectedScene deki nex scenedenen iste!!!!
     public void NextScene()
     {
        
