@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/GameManager/UI_using_UI_Toolkit/BaseUI.uss?fileID=7433441132597879392&amp;guid=f066985967824ff4883b1e65584415ac&amp;type=3#BaseUI" />
+    <ui:VisualElement name="Container" focusable="false" style="flex-grow: 1; background-color: rgb(139, 183, 188); width: 50%; height: 50%; align-self: auto; justify-content: center; align-items: center; flex-direction: column; display: flex; opacity: 1; flex-wrap: nowrap; flex-basis: auto; margin-left: 1px; margin-right: 1px; margin-top: 1px; margin-bottom: 1px; transition-property: opacity; transition-duration: 3s; transition-delay: 1s; left: 25%; top: 25%; right: 25%; bottom: 25%; -unity-background-image-tint-color: rgb(211, 243, 29); position: absolute;">
+        <ui:Label tabindex="-1" text="Test Title" display-tooltip-when-elided="true" name="Label" class="header label_transition" style="transition-timing-function: ease-in, ease-out-bounce; display: flex; opacity: 1; background-image: none; width: 50%; height: 50px; -unity-text-align: middle-center; font-size: 45px; -unity-font-style: bold; justify-content: center; align-self: center; transition-property: opacity, opacity; transition-duration: 3s, 3s; transition-delay: 0.5s, 0.5s;" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" name="sampleButton" style="width: 50%; height: 50px; transition-property: opacity;" />
+    </ui:VisualElement>
+</ui:UXML>

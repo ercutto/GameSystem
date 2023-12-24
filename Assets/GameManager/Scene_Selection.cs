@@ -8,6 +8,7 @@ public class Scene_Selection : MonoBehaviour
 {
     int openMenu = Animator.StringToHash("SceneSelelctionOpen");
     int closeMenu = Animator.StringToHash("SceneSelectionClose");
+    
     public Animator animator;
     int gameToPlay;
     
@@ -31,10 +32,10 @@ public class Scene_Selection : MonoBehaviour
     public void SelectScene(int sceneToLoad)
     {
         
-            GameManager.Instance.ChangeCanvasses(4, false);
-        
-        
+        GameManager.Instance.ChangeCanvasses(4, false);
+        GameManager.Instance._selectedGame.PlayAnimation();
         Debug.Log("Scene_Selection isEnded");
+
         gameToPlay = sceneToLoad;
         
         SceneManager.LoadScene(gameToPlay);
